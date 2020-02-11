@@ -1,4 +1,4 @@
-package br.com.alura.email.kafka.serializer;
+package br.com.alura.email.kafka.deserializer;
 
 import java.util.Map;
 

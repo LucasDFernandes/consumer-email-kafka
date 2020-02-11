@@ -14,7 +14,7 @@ import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
-import br.com.alura.email.kafka.serializer.GsonDeserializer;
+import br.com.alura.email.kafka.deserializer.GsonDeserializer;
 
 public class KafkaService<T> implements Closeable {
 
